@@ -1,0 +1,110 @@
+body {
+	background-image: url(../../../asset/images/background4.jpg);
+	background-size: cover;
+	/* background-repeat: no-repeat; */
+	opacity: 1;
+}
+
+.login-clean {
+	/* background: #1979c7; */
+	padding: 80px 0;
+	/* background-image: url(../../../asset/images/background3.jpg); */
+	/* background-size: cover; */
+	/* background-repeat: no-repeat; */
+	/* opacity: 1; */
+	/* width: 100%; */
+	/* height: 100%; */
+	/* margin: 0; */
+	/* padding: 80; */
+}
+
+.login-clean form {
+	max-width: 400px;
+	width: 90%;
+	margin: 0 auto;
+	background-color: #ffffff;
+	padding: 40px;
+	border-radius: 4px;
+	color: #505e6c;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+	opacity: 0.9;
+}
+
+.login-clean .illustration {
+	text-align: center;
+	padding: 0 0 20px;
+	font-size: 100px;
+	height: 150px;
+	margin-bottom: 10px;
+	color: #66d7d7;
+	background-image: url(../../../asset/images/logo_tangsel.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.login-clean .logincleanimage {
+	font-size: 20px;
+	color: #333333;
+
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 20px;
+	border-radius: 0%;
+	background-color: #fff;
+	margin: 0 auto;
+	z-index: 1;
+}
+
+.login-clean form .form-control {
+	background: #f7f9fc;
+	border: none;
+	border-bottom: 1px solid #dfe7f1;
+	border-radius: 0;
+	box-shadow: none;
+	outline: none;
+	color: inherit;
+	text-indent: 8px;
+	height: 42px;
+}
+
+.login-clean form .btn-primary {
+	background: #66d7d7;
+	border: none;
+	border-radius: 4px;
+	padding: 11px;
+	box-shadow: none;
+	margin-top: 26px;
+	text-shadow: none;
+	outline: none !important;
+}
+
+.login-clean form .btn-primary:hover,
+.login-clean form .btn-primary:active {
+	background: #058282;
+}
+
+.login-clean form .btn-primary:active {
+	transform: translateY(1px);
+}
+
+.login-clean form .forgot {
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	color: #6f7a85;
+	opacity: 0.9;
+	text-decoration: none;
+}
+
+.login-clean form .forgot:hover,
+.login-clean form .forgot:active {
+	opacity: 1;
+	text-decoration: none;
+}

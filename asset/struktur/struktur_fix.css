@@ -1,0 +1,107 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    /*overflow: auto;*/
+    text-align: center;
+    font-family: Helvetica;
+}
+
+#tree {
+    width: 1800%;
+    height: 1800%;
+    position: center;
+    overflow: auto;
+}
+
+/* Ganti Warna lingkaran penghubung */
+[control-expcoll-id] circle {
+    fill: #eefa09;
+}
+
+/* Ganti warna pada line penghubung berdasarkan id */
+[link-id='[3][4]'] path {
+    stroke: #016e25;
+}
+
+[link-id='[3][5]'] path {
+    stroke: #016e25;
+}
+
+[link-id='[3][6]'] path {
+    stroke: #016e25;
+}
+
+[link-id='[1][7]'] path {
+    stroke: #040494;
+}
+
+/* Ganti semua warna pada line penghubung */
+/* [link-id] path {
+    stroke: #750000;
+} */
+
+/* Ganti warna semua kotak struktur */
+[node-id] rect {
+    /* fill: #016e25; */
+    /* width: 100%; */
+}
+
+/* Ganti warna kotak struktur berdasarkan id */
+[node-id='2'] rect {
+    fill: #069c29;
+}
+
+[node-id='3'] rect {
+    fill: #069c29;
+}
+
+[node-id='4'] rect {
+    fill: #05d636;
+}
+
+[node-id='5'] rect {
+    fill: #05d636;
+}
+
+[node-id='6'] rect {
+    fill: #05d636;
+}
+
+/* Ganti Warna Text pada kotak struktur */
+[node-id='2'] text {
+    fill: #101111;
+}
+[node-id='2'] tspan {
+    fill: #fbfdfd;
+}
+
+[node-id='3'] text {
+    fill: #101111;
+}
+[node-id='3'] tspan {
+    fill: #fbfdfd;
+}
+
+[node-id='4'] text {
+    fill: #101111;
+}
+[node-id='4'] tspan {
+    fill: #fbfdfd;
+}
+
+[node-id='5'] text {
+    fill: #101111;
+}
+[node-id='5'] tspan {
+    fill: #fbfdfd;
+}
+
+[node-id='6'] text {
+    fill: #101111;
+}
+[node-id='6'] tspan {
+    fill: #fbfdfd;
+}
+

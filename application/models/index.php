@@ -1,0 +1,1 @@
+<script>alert('Page Not Found');window.location='../Cguest'</script>

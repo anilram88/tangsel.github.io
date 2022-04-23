@@ -1,0 +1,41 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+class jpgraph
+{
+	public function barchart()
+	{
+	  include("jpgraph/src/jpgraph.php");
+	  include("jpgraph");
+	  include("jpgraph");
+	}
+
+}
+?>
+
+pada bagian menu : saya akan memanggil fungsi controller yang bertugas
+untuk menampilkan views.
+misalkan <a href="<?php echo base_url()."cobagraphn/tampilgraph"?>
+
+$this->load->view("tampiljpgraph_view");
+
+function tampilgrafik()
+{
+$this->load->library("jpgraph");
+//datax=array(2,10,20);
+datay=array("rendah","sedang","bagus");
+
+$graph = new PieGraph(400, 270 ,"auto");
+$graph->SetScale('textint');
+$graph->img->SetMargin(50,30,70,100);
+$graph->SetShadow();
+
+$bplot = new PiePlot3D($datax);
+$bplot->SetCenter(0,45,0,40);
+$bplot->SetLegends($datay);
+$bplot->value->Show();
+$bplot->value->SetFont(FF_ARIAL, FS_BOLD);
+
+$graph->Add($bplot);
+$graph->Stroke();
+
+}
